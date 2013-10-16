@@ -1,11 +1,11 @@
 {
-  "name": "bootstrap-theme-themestrap-sample",
+  "name": "bootstrap-theme-genealogy-sumo",
   "version": "0.0.1",
   "private": true,
-  "author": "Your Name",
+  "author": "Dovy Paukstys",
   "main": "dist/bootstrap.css",
   "themestrap": {
-    "name": "Themestrap Sample",
+    "name": "Sumo Theme",
     "repo": "https://github.com/divshot/themestrap"
   },
   "ignore": [
