@@ -1,0 +1,3 @@
+[submodule "FamilySearch-Icons"]
+	path = FamilySearch-Icons
+	url = https://github.com/rootsdev/FamilySearch-Icons.git
