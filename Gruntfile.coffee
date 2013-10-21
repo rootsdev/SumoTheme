@@ -24,7 +24,7 @@ module.exports = (grunt) ->
         files: ['dist/css/bootstrap.css']
         tasks: ['cssmin:minify']
       assemble:
-        files: ['pages/*.html', 'pages/examples/*', 'README.md']
+        files: ['pages/*', 'README.md']
         tasks: ['assemble']
     cssmin:
       minify:
@@ -45,8 +45,7 @@ module.exports = (grunt) ->
           flatten: true,
           assets: 'dist'
         files:
-          'index.html': ['pages/index.html'],
-          'examples/': ['pages/examples/*.html']
+          'dist/': ['pages/*.html']
     copy:
       bootstrap:
         files: [
